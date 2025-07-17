@@ -260,7 +260,7 @@ const Recommendations = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {matches.map((item, idx) => (
             <div key={idx} className="bg-white p-6 rounded-xl shadow-md">
-              <h3 className="text-xl font-semibold text-violet-800 mb-2">{item.title}</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">{item.title}</h3>
               <p className="mb-2 text-gray-700">{item.desc}</p>
               {item.salary && <p className="text-sm"><strong>💰 Salary:</strong> {item.salary}</p>}
               {item.companies?.length > 0 && (
